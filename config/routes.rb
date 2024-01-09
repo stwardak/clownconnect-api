@@ -3,5 +3,6 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
-  get "/bookings" =>"bookings#index"
+  get "/bookings" => "bookings#index" #user can view all bookings
+  post "/bookings" => "bookings#create" #user can create new booking
 end
