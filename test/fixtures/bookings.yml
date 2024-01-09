@@ -1,0 +1,15 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  clown_id: 1
+  user_id: 1
+  date: 2024-01-09
+  time: 2024-01-09 11:59:04
+  preferences: MyText
+
+two:
+  clown_id: 1
+  user_id: 1
+  date: 2024-01-09
+  time: 2024-01-09 11:59:04
+  preferences: MyText
